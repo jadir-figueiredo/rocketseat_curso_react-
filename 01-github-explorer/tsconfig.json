@@ -1,0 +1,19 @@
+{
+   "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], //importar todos os inputs do HTML
+    "allowJs": true, // Vamos utilizar JavaScripte TypeScript
+    "jsx": "react-jsx", // Vamos usar React JS
+    "noEmit": true, // No emitir o código na build
+    "strict": true, // Entrar no modo strict do JavaScript
+    "moduleResolution": "node",
+    "resolveJsonModule": true, //possibilita a importação de arquivos .json
+    "isolatedModules": true,   
+		"allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,		
+  },
+  "include":["src"] // onde nosso código está, se tivesse outro file com código deveria ser repassado aqui também.
+}
+ 
+
